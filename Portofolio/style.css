@@ -181,7 +181,7 @@ input[type="submit"] {
     background-color: #198bc9;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, .panah_box:hover {
     cursor: pointer;
     background-color: #34a4e0;
 }
@@ -200,4 +200,60 @@ input[type="submit"]:hover {
     margin-top: 20px;
     padding: 10px 0;
 
+}
+
+
+  /* Bagian Setiap Folia */
+
+.panah_box {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: #0078b9;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 200px;
+}
+
+#karya_box {
+    width: 800px;
+    margin: 0 20px;
+}
+
+.panah_box, #karya_box , #karya_box_kr, #karya_box_knn {
+    float: left;
+}
+
+#karya_box_knn {
+    width: 500px;
+    height: 350px;
+}
+
+#karya_box_kr {
+    width: 280px;
+    padding: 30px 10px 0 10px;
+    height: 320px;
+    background-color: #0078b9;
+    color: white;
+}
+
+#karya_box_kr h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#karya_box_kr .deskripsi {
+    font-size: 18px
+}
+
+.karya_lain {
+    width: 450px;
+    margin: 50px auto 0 auto;
+}
+
+.karya_lain img {
+    display: block;
+    float:left ;
+    width: 140px;
+    margin-left: 10px;
 }
