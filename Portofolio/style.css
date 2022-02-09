@@ -94,3 +94,110 @@ img {
     background-color: white;
     color: #0078b9;
 }
+
+
+
+/* Konten Kedua */
+
+#kedua {
+    background-color: #0078b9;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    padding: 30px 0 45px 0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#kedua img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.setiap_karya_gambar {
+    position: relative;
+}
+
+.setiap_karya_gambar p {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius:50% ;
+    color: #0078b9;
+    display: none;
+}
+
+.setiap_karya_gambar:hover p{
+    display: block;
+}
+
+.deskripsi{
+    font-size: 22px;
+}
+
+
+
+
+/* Konten Ketiga */
+
+
+.kolom_2 {
+    float: left;
+    width: 450px;
+    margin: 0 15px;
+}
+
+#ketiga h2 {
+    text-align: center;
+    color: #0078b9;
+}
+
+#ketiga input, #ketiga textarea {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 12px;
+    border: 2px solid #0078b9;
+}
+
+#ketiga textarea {
+    height: 130px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #198bc9;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #34a4e0;
+}
+
+
+#ketiga iframe {
+    max-width: 450px;
+}
+
+                                                            /* Bagian Footer */
+
+#footer {
+    background-color: #0078b9;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+
+}
